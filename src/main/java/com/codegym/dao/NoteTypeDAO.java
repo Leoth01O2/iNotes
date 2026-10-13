@@ -8,7 +8,7 @@ import java.util.List;
 public class NoteTypeDAO {
     private final String jdbcURL = "jdbc:mysql://localhost:3306/inotes_db?useSSL=false&serverTimezone=UTC";
     private final String jdbcUsername = "root";
-    private final String jdbcPassword = "";
+    private final String jdbcPassword = "123456";
 
     public List<NoteType> findAll() {
         List<NoteType> types = new ArrayList<>();

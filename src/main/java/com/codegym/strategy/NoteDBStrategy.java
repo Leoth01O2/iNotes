@@ -9,7 +9,7 @@ import java.util.List;
 public class NoteDBStrategy implements NoteStrategy {
     private final String jdbcURL = "jdbc:mysql://localhost:3306/inotes_db?useSSL=false&serverTimezone=UTC";
     private final String jdbcUsername = "root";
-    private final String jdbcPassword = "";
+    private final String jdbcPassword = "123456";
 
     private Connection getConnection() throws SQLException {
         return DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
